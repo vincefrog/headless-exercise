@@ -2,3 +2,7 @@ node_modules
 npm-debug.log
 yarn-error.log
 data
+.idea
+.DS_Store
+*/.DS_Store
+

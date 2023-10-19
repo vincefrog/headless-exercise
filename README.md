@@ -1,12 +1,11 @@
 ![WordPress + React Starter Kit]
 
-[Postlight](https://postlight.com)'s Headless WordPress + React Starter Kit is an automated toolset that will spin up three things:
+This git repo is based on https://github.com/postlight/headless-wp-starter 
 
 1.  A WordPress backend that serves its data via the [WP REST API](https://developer.wordpress.org/rest-api/) and [GraphQL](http://graphql.org/).
 2.  A sample React frontend powered by the [WP GraphQL API](https://www.wpgraphql.com/), which supports posts, pages, categories, menus, search, and user sign-in.
 3.  Another sample server-side rendered React frontend using [Next.js](https://github.com/zeit/next.js/) powered by the WP REST API.
 
-You can read all about it in [this handy introduction](https://postlight.com/trackchanges/introducing-postlights-wordpress-react-starter-kit).
 
 **What's inside:**
 
@@ -71,7 +70,7 @@ If you need to restart that process, restart the container:
 
 The `wp-headless` container exposes Apache on host port `8080`:
 
-- Dashboard: [http://localhost:8080/wp-admin](http://localhost:8080/wp-admin) (default credentials `postlight`/`postlight`)
+- Dashboard: [http://localhost:8080/wp-admin](http://localhost:8080/wp-admin) (default credentials `admin`/`admin`)
 - REST API: [http://localhost:8080/wp-json](http://localhost:8080/wp-json)
 - GraphQL API: [http://localhost:8080/graphql](http://localhost:8080/graphql)
 
@@ -158,11 +157,6 @@ You may also attempt to autofix PHPCS errors:
 
 To lint and format the JavaScript apps, both [Prettier](https://prettier.io/) and [ESLint](https://eslint.org/) configuration files are included.
 
-## Hosting
-
-Most WordPress hosts don't also host Node applications, so when it's time to go live, you will need to find a hosting service for the frontend.
-
-That's why we've packaged the frontend app in a Docker container, which can be deployed to a hosting provider with Docker support like Amazon Web Services or Google Cloud Platform. For a fast, easier alternative, check out [Now](https://zeit.co/now).
 
 ## Troubleshooting Common Errors
 
@@ -183,4 +177,5 @@ See anything else you'd like to add here? Please send a pull request!
 
 ---
 
-🔬 This project is based on [Postlight](https://postlight.com) starter pack 
+Once you finish the install, go to http://localhost:3000/ and see exercise instructions 
+
