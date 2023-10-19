@@ -1,6 +1,7 @@
-![WordPress + React Starter Kit]
+[WordPress + React Starter Kit]
 
 This git repo is based on https://github.com/postlight/headless-wp-starter 
+
 
 1.  A WordPress backend that serves its data via the [WP REST API](https://developer.wordpress.org/rest-api/) and [GraphQL](http://graphql.org/).
 2.  A sample React frontend powered by the [WP GraphQL API](https://www.wpgraphql.com/), which supports posts, pages, categories, menus, search, and user sign-in.
@@ -21,6 +22,8 @@ This git repo is based on https://github.com/postlight/headless-wp-starter
 - [Docker](https://www.docker.com/) containers and scripts to manage them, for easily running the frontend React apps and backend locally or deploying it to any hosting provider with Docker support.
 
 Let's get started.
+
+### Once you finish the installation, go to http://localhost:3000/ and see exercise instructions
 
 ## Install
 
@@ -176,6 +179,3 @@ If you have deployed your WordPress install and are having CORS issues be sure t
 See anything else you'd like to add here? Please send a pull request!
 
 ---
-
-Once you finish the install, go to http://localhost:3000/ and see exercise instructions 
-
