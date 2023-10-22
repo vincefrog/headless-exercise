@@ -140,6 +140,9 @@ class Index extends Component {
                             <li>
                                 Successful Submit will pop a successful message
                             </li>
+                            <li>
+                                Please commit your code to your personal github repo and provide the link so we can review your work
+                            </li>
                         </ol>
                         <div style={{marginTop:  '2rem'}}><b>Important: Do not mention JFrog in your code</b></div>
                     </div>
