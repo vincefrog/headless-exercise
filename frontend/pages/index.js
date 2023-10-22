@@ -64,39 +64,6 @@ class Index extends Component {
     }
 
     render() {
-        const {id} = this.state;
-        const {posts, pages, headerMenu, page} = this.props;
-        const fposts = posts.map(post => {
-            return (
-                <ul key={post.slug}>
-                    <ol>
-                        <Link
-                            as={`/post/${post.slug}`}
-                            href={`/post?slug=${post.slug}&apiRoute=post`}
-                        >
-                            <a>{post.title.rendered}</a>
-                        </Link>
-                    </ol>
-                </ul>
-            );
-        });
-        const fpages = pages.map(ipage => {
-            if (ipage.slug !== 'welcome') {
-                return (
-                    <ul key={ipage.slug}>
-                        <ol>
-                            <Link
-                                as={`/page/${ipage.slug}`}
-                                href={`/post?slug=${ipage.slug}&apiRoute=page`}
-                            >
-                                <a>{ipage.title.rendered}</a>
-                            </Link>
-                        </ol>
-                    </ul>
-                );
-            }
-        });
-
         const layout = {
             display: 'flex',
             alignItems: 'center',
